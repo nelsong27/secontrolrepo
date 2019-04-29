@@ -5,7 +5,7 @@ forge "http://forge.puppetlabs.com"
 mod 'puppetlabs-splunk_hec', '0.4.1'
 mod 'puppetlabs-acl', '2.0.1'
 mod 'puppetlabs-apache', '2.3.0'
-mod 'puppetlabs-apt', '4.1.0'
+mod 'puppetlabs-apt', '4.4.1'
 mod 'puppetlabs-aws', '2.1.0'
 mod 'puppetlabs-azure', '1.3.1'
 mod 'puppetlabs-bolt_shim', '0.1.1'
