@@ -6,7 +6,7 @@ plan profile::rolling_update (
 
   profile::puts("Start perform rolling upgrade for backend ${backend} on ${lb}...")
 
-  $app_servers.split(',').each |$a| {
+  #$app_servers.split(',').each |$a| {
 
     profile::puts("\tDrain connections from member ${backend}:${a}")
     if run_task('profile::haproxy', "pcp://${lb}",
