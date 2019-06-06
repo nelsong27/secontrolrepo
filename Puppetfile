@@ -126,3 +126,6 @@ mod 'netstat',
   :git => 'https://github.com/ipcrm/ipcrm-netstat.git',
   :ref => 'master'
 
+mod 'wintime'
+  :git => 'https://github.com/nelsong27/wintime.git'
+  :ref => 'master'
