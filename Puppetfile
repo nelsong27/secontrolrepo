@@ -127,5 +127,5 @@ mod 'netstat',
   :ref => 'master'
 
 mod 'wintime'
-  :git => 'https://github.com/nelsong27/wintime.git'
+  :git => 'https://github.com/nelsong27/wintime.git',
   :ref => 'master'
