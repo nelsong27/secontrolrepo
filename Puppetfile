@@ -51,6 +51,7 @@ mod 'puppetlabs-transition', '0.1.1'
 mod 'puppetlabs-translate', '1.2.0'
 mod 'puppetlabs-vcsrepo', '1.5.0'
 mod 'puppetlabs-support_tasks', '1.1.1'
+mod 'puppetlabs-cd4pe_jobs', '1.0.0'
 
 # Forge Community Modules
 mod 'WhatsARanjit-node_manager', '0.7.1'
@@ -132,7 +133,7 @@ mod 'wintime',
   :git => 'https://github.com/nelsong27/wintime.git',
   :ref => 'master'
 
-mod 'users2'
-  :git => 'https://github.com/nelsong27/users2.git',
-  :ref => :control_branch,
-  :default => 'master'
+#mod 'users2'
+#  :git => 'https://github.com/nelsong27/users2.git',
+#  :ref => :control_branch,
+#  :default => 'master'
