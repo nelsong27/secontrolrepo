@@ -133,7 +133,7 @@ mod 'wintime',
   :git => 'https://github.com/nelsong27/wintime.git',
   :ref => 'master'
 
-mod 'users2',
- :git => 'https://github.com/nelsong27/users2.git',
- :branch => :control_branch
+#mod 'users2',
+# :git => 'https://github.com/nelsong27/users2.git',
+# :branch => :control_branch
 #  :default => 'master'
