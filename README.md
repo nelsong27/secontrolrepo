@@ -6,4 +6,4 @@ This is the control-repo used by the Puppet SE team.
 * [Consume](docs/consume.md)
 * [Contribute](docs/contribute.md)
 
-#Change 4
+#Change 1
