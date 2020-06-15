@@ -133,7 +133,7 @@ mod 'wintime',
   :git => 'https://github.com/nelsong27/wintime.git',
   :ref => 'master'
 
-mod 'ntp-module',
+mod 'ntp',
  :git     => 'https://github.com/nelsong27/ntp-module.git',
  :branch  => :control_branch
 # :default => 'master'
