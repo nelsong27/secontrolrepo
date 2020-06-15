@@ -34,7 +34,7 @@ mod 'puppetlabs-motd', '2.1.2'
 mod 'puppetlabs-mount_iso', '1.0.0'
 mod 'puppetlabs-mysql', '3.11.0'
 mod 'puppetlabs-netdev_stdlib', '0.14.1'
-mod 'puppetlabs-ntp', '6.2.0'
+#mod 'puppetlabs-ntp', '6.2.0'
 mod 'puppetlabs-pipelines', '1.0.1'
 mod 'puppetlabs-powershell', '2.1.0'
 mod 'puppetlabs-puppet_authorization', '0.5.0'
@@ -133,7 +133,12 @@ mod 'wintime',
   :git => 'https://github.com/nelsong27/wintime.git',
   :ref => 'master'
 
+mod 'ntp-module',
+ :git => 'https://github.com/nelsong27/ntp-module.git',
+ :branch => :control_branch
+ :default => 'master'
+
 mod 'users2',
  :git => 'https://github.com/nelsong27/users2.git',
  :branch => :control_branch
-# :default => 'master'
+ :default => 'master'
