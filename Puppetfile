@@ -142,5 +142,5 @@ mod 'ntp',
 
 mod 'users2',
  :git     => 'https://github.com/nelsong27/users2.git',
- :branch  => :control_branch,
- :default_branch => 'master'
+ :branch  => :control_branch
+# :default_branch => 'master'
