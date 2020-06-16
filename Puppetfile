@@ -138,9 +138,9 @@ mod 'wintime',
 mod 'ntp',
  :git     => 'https://github.com/nelsong27/ntp-module.git',
  :branch  => :control_branch
-# :default => 'master'
+# :default_branch => 'master'
 
 mod 'users2',
  :git     => 'https://github.com/nelsong27/users2.git',
  :branch  => :control_branch
-# :default => 'master'
+ :default_branch => 'master'
