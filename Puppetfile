@@ -53,7 +53,7 @@ mod 'puppetlabs-transition', '0.1.1'
 mod 'puppetlabs-translate', '1.2.0'
 mod 'puppetlabs-vcsrepo', '1.5.0'
 mod 'puppetlabs-support_tasks', '1.1.1'
-mod 'puppetlabs-cd4pe_jobs', '1.0.0'
+mod 'puppetlabs-cd4pe_jobs', '1.5.0'
 
 # Forge Community Modules
 mod 'WhatsARanjit-node_manager', '0.7.1'
