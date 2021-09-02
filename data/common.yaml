@@ -2,7 +2,9 @@
 ##
 # Cisco NTP
 devnet_demo::ntp::servers:
-  - 2.2.2.2
+  '2.2.2.2':
+    ensure: 'present'
+    source_interface: 'GigabitEthernet1'
 ##
 # Hiera
 hiera::cmdpath:
