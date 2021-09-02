@@ -3,7 +3,6 @@
 # Cisco NTP
 devnet_demo::ntp::servers:
   - 2.2.2.2
-  - 3.3.3.3
 ##
 # Hiera
 hiera::cmdpath:
