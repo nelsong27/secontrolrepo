@@ -16,7 +16,7 @@ device_manager::devices:
       username:        'cisco'
       password:        'cisco'
       enable_password: 'cisco'
-    run_interval: 360
+    run_interval: 0
   csr1000v2:
     type:         'cisco_ios'
     credentials:
@@ -25,7 +25,7 @@ device_manager::devices:
       username:        'cisco'
       password:        'cisco'
       enable_password: 'cisco'
-    run_interval: 360
+    run_interval: 0
 ##
 # Hiera
 hiera::cmdpath:
