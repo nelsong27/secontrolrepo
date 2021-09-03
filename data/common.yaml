@@ -7,6 +7,7 @@ devnet_demo::ntp::servers:
     source_interface: 'GigabitEthernet1'
 ##
 # Device Manager for network devices
+device_manager::devices:
   csr1000v:
     type:         'cisco_ios'
     credentials:
