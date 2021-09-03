@@ -6,6 +6,26 @@ devnet_demo::ntp::servers:
     ensure: 'present'
     source_interface: 'GigabitEthernet1'
 ##
+# Device Manager for network devices
+  csr1000v:
+    type:         'cisco_ios'
+    credentials:
+      address:    '172.31.89.198'
+      port:            22
+      username:        'cisco'
+      password:        'cisco'
+      enable_password: 'cisco'
+    run_interval: 360
+  csr1000v2:
+    type:         'cisco_ios'
+    credentials:
+      address:    '172.31.15.228'
+      port:            22
+      username:        'cisco'
+      password:        'cisco'
+      enable_password: 'cisco'
+    run_interval: 360
+##
 # Hiera
 hiera::cmdpath:
   - /opt/puppet/bin
