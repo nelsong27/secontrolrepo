@@ -112,16 +112,16 @@ mod 'splunk',
   :git => 'https://github.com/voxpupuli/puppet-splunk.git',
   :ref => '15ac2b35e9a7ec8545c538ffcff04eca31ede100'
 
-mod 'tse-tse_facts',
-  :git => 'https://github.com/puppetlabs/tse-module-tse_facts.git'
+#mod 'tse-tse_facts',
+#  :git => 'https://github.com/puppetlabs/tse-module-tse_facts.git'
 
 mod 'demo_cis',
   :git => 'https://github.com/nelsong27/demo_cis.git',
   :ref => 'master'
 
-mod 'rgbank',
-  :git => 'https://github.com/ipcrm/puppetlabs-rgbank.git',
-  :ref => 'master'
+#mod 'rgbank',
+#  :git => 'https://github.com/ipcrm/puppetlabs-rgbank.git',
+#  :ref => 'master'
 
 mod 'jenkins',
   :git => 'https://github.com/jenkinsci/puppet-jenkins.git',
@@ -139,9 +139,9 @@ mod 'devnet_demo',
   :git => 'https://github.com/shermdog/devnet_demo.git',
   :ref => 'clus_2019'
 
-#mod 'ciscomanage',
-#  :git => 'https://github.com/nelsong27/ciscomanage.git',
-#  :ref => 'main'
+mod 'ciscomanage',
+  :git => 'https://github.com/nelsong27/ciscomanage.git',
+  :ref => 'main'
 
 mod 'ntp',
  :git     => 'https://github.com/nelsong27/ntp-module.git',
