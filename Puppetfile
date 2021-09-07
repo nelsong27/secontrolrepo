@@ -139,6 +139,10 @@ mod 'devnet_demo',
   :git => 'https://github.com/shermdog/devnet_demo.git',
   :ref => 'clus_2019'
 
+mod 'ciscomanage',
+  :git => 'https://github.com/nelsong27/ciscomanage.git',
+  :ref => 'main'
+
 mod 'ntp',
  :git     => 'https://github.com/nelsong27/ntp-module.git',
  :branch  => :control_branch,
