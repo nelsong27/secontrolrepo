@@ -1,6 +1,6 @@
 class example::cisco_config {
 
-network_dns { 'default':
+ios_network_dns { 'default':
   ensure  => 'present',
   servers => ['8.8.8.8', '8.8.4.4'],
   search  => ['puppet.vm']
