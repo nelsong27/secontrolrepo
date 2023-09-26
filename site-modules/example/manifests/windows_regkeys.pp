@@ -8,7 +8,7 @@ class example::windows_regkeys {
 
   registry_value { 'HKEY_LOCAL_MACHINE\Software\Demonstration\value1':
     type => string,
-    data => 'this is a value from puppet demo',
+    data => 'this is a value from Nelson',
   }
 
   registry_value { 'HKEY_LOCAL_MACHINE\Software\Demonstration\value2':
